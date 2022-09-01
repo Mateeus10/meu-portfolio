@@ -1,0 +1,75 @@
+.container-projects {
+  padding: 2rem 80px;
+}
+
+.slick-prev {
+  position: absolute;
+  left: 1%;
+}
+
+.slick-next {
+  right: 1%;
+}
+
+.slick-dots {
+  bottom: 2px;
+}
+
+.item-projects {
+  width: 100%;
+  height: 400px;
+}
+
+.img-2 {
+  background-image: url(../Home/assets/img/git2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.item-projects h3 {
+  font-size: 30px;
+  color: #ff0000;
+  position: relative;
+  top: 45%;
+  text-align: left;
+  left: 4%;
+}
+
+.item-projects p {
+  width: 30%;
+  font-size: 22px;
+  color: #fff;
+  position: relative;
+  top: 50%;
+  text-align: left;
+  left: 4%;
+}
+
+@media (max-width: 1200px) {
+  .item-projects p {
+      width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-projects {
+      padding: 2rem 40px;
+  }
+
+  .item-projects p {
+      width: 80%;
+  }
+}
+
+@media (max-width: 460px) {
+  .container-projects {
+      padding: 2rem 10px;
+  }
+
+  .item-projects p {
+      width: 90%;
+  }
+
+}

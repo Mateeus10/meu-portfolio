@@ -1,0 +1,71 @@
+:root {
+  --color1: #f50000;
+  --color2: #2feb00;
+  --color3: #2904ff;
+  --bgColor: rgb(0, 0, 0);
+  --bgColor-light: #000000;
+  --textColor: rgb(255, 255, 255);
+  --hoverBackground: rgba(0, 0, 0, 0.1);
+  --skillColor: rgb(73, 0, 0);
+  --bgImage: url(./components/Home/assets/fundo1.png);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    
+  
+}
+
+html {
+  scroll-padding-top: 70px;
+ 
+ 
+}
+
+body {
+  font-family: 'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+ 
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bgColor);
+  
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(224, 221, 221);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(122, 119, 119);
+}
+
+.page-section {
+  width: 100%;
+  background-color: var(--bgColor);
+  padding: 2rem 20px;
+}
+
+.page-light {
+  width: 100%;
+  background-color: var(--bgColor-light);
+  padding: 2rem 20px;
+}
