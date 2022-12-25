@@ -1,5 +1,5 @@
 import icon from '../about/assets/img/mateus.jpg';
-import Curriculo from './assets/Mateus.pdf';
+import Curriculo from './assets/Mateus_Almeida.pdf';
 import './about.css';
 
 export default function About() {

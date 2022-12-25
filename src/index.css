@@ -1,13 +1,13 @@
 :root {
-  --color1: #f50000;
-  --color2: #2feb00;
-  --color3: #2904ff;
-  --bgColor: rgb(0, 0, 0);
+  --color1: #c6e77a;
+  --color2: #000000;
+  --color3: #c56298;
+  --bgColor: rgb(223, 223, 223);
   --bgColor-light: #000000;
   --textColor: rgb(255, 255, 255);
   --hoverBackground: rgba(0, 0, 0, 0.1);
-  --skillColor: rgb(73, 0, 0);
-  --bgImage: url(./components/Home/assets/fundo1.png);
+  --skillColor: rgb(212, 10, 54);
+  --bgImage: url(./components/Home/assets/fundao2.png);
 }
 
 * {

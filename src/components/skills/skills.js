@@ -51,7 +51,7 @@ export default function Skills() {
 
   return (
     <section class="page-section" id="skills">
-     <h2 class="title-page"><span>Minhas skills</span></h2>
+     <h2 class="title-page"><span>Minhas Habilidades</span></h2>
      <div class="wrapper">
        <div class="description-skills">
          <h2 class="title-description">Skill</h2>

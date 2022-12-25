@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Sevillana&family=Simonetta&display=swap');
 .about-section {
   display: flex;
   flex-wrap: nowrap;
@@ -14,7 +15,8 @@
   text-align: center;
   margin-bottom: 20px;
   padding: 20px;
-  color:  rgb(235, 235, 245);;
+  color:  rgb(34, 192, 49);
+  font-family: 'Simonetta', cursive;
 }
 
 .texto-about {
@@ -26,16 +28,17 @@
 
 .texto-about h3 {
   font-size: 40px;
-  color: rgb(47, 47, 197);
+  color: rgb(255, 255, 255);
   text-align: left;
   margin-bottom: 20px;
+  font-family: 'Simonetta', cursive;
 }
 
 .texto-about p {
   font-size: 25px;
-  color: red;
+  color: rgb(226, 187, 187);
   text-align: left;
-  font-family: 'DynaPuff', cursive;
+  font-family: 'Sevillana', cursive;
 }
 
 .right-text {

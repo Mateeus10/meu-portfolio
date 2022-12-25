@@ -65,7 +65,8 @@
   margin-left: -5px;
   font-size: 36px;
   font-weight: bold;
-  color: rgba(255, 196, 0, 0.863);
+  color: rgba(0, 44, 238, 0.479);
+  font-family: 'DynaPuff', cursive;
 }
 
 .right-img {
@@ -85,10 +86,10 @@
   position: absolute;
   top: 0;
   left: 0;
-  fill: rgb(106, 33, 224);
+  fill: rgb(199, 8, 56);
   width: 20vmax;
   z-index: -1;
-  animation: move 10s ease-in-out infinite;
+  animation: move 15s ease-out infinite;
   transform-origin: 5% 5%;
 }
 

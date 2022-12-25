@@ -5,11 +5,11 @@ import Blob from './blob.js';
 
 export default function Home() {
   const {text} = useTypewriter({
-  words:["Sou Estudante de T.I", "Em busca da", "Da minha primeira", "Oportunidade com",  "Estagiário de T.I", "ou Desenvolvedor Jr"],
+  words:["Sou Estudante de", "Ciência da Computação","Em Busca ","de uma vaga", "Estágio em T.I", "ou Desenvolvedor Jr"],
   loop: 0,
-  typeSpeed: 150,
-  deleteSpeed: 50,
-  delaySpeed:1000
+  typeSpeed: 250,
+  deleteSpeed: 60,
+  delaySpeed:3000
   });
 
   return(
