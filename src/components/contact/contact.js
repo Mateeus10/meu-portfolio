@@ -19,7 +19,7 @@ export default function Contact() {
             </li>
           </ul>
         </div>
-        <form action="https://formsubmit.co/a499dc2eca10a8ea66a60a7c215c4114" method="POST" class="form-contact">
+        <form action="https://formsubmit.co/b8074444c018ffecaba8442d8d2b3ddc" method="POST" class="form-contact">
           <input type="hidden" name="_next" value="https://portfoliomateus.tk/" />
           <input type="hidden" name="_template" value="box" />
           <input type="hidden" name="_autoresponse" value="Recebi sua mensagem, muito obrigado por entrar em contato! Responderei o mais rápido possível..." />            
